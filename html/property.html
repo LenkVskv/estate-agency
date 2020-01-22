@@ -1,0 +1,280 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Property</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css "></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <link rel="stylesheet" href="/css/property.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="/js/main.js"></script>
+    <script src="/js/property.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+   
+  
+</head>
+<body>
+<div id="header"></div>
+<div class="app-container pt-40">
+    <div class="top-cart">
+        <div class="top-cart-info">
+            <div class="container top-cart-info-container">
+                <div class="modal">
+                    
+                    <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="text-order"></div>
+                       
+                        <div class="container">
+                            <form>
+                                <p>Сheckout</p>
+                                <h5>Your're E-mail* </h5>
+                                 <input type="email" name="email" value="" required  />
+                                 <h5>You're name*</h5>
+                                  <input type="name" name="name" minlength="4" maxlength="20" pattern="[A-Za-zА-Яа-яЁёІіЇїЄє]{2,20}" value="" required />
+                                 <input type="submit" name="form_submit" value="Submit" />
+                           </form>
+                                
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="wrap">
+        <section class="container">
+            <div class="filter-box">
+                <div class="select-box">
+                    <label class="filter-label">Property</label>
+                    <select class="select-control">
+                        <option value="0">All</option>
+                        <option value="1">Rent</option>
+                        <option value="2">Buy</option>
+                        <option value="3">Sold</option>
+                    </select>
+                </div>
+                <div class="price-box">
+                    <label class="filter-label">Price</label>
+                    <input type="text" name="value">
+                    <div id="price-slider"></div>
+                    </div>
+                <div class="district-box">
+                    <label class="filter-label">District</label>
+                    <select class="select-control">
+                        <option value="0">All</option>
+                        <option value="1">Holosiivskyi</option>
+                        <option value="2">Pechersʹkyy</option>
+                        <option value="3">Solom'yansʹkyy</option>
+                        <option value="4">Shevchenkivsky</option>
+                        <option value="5">Svyatoshinsky</option>
+                    </select>
+                </div>
+                       
+            </div>
+           
+
+            <div class="products-box grid-box">
+                <div class="product-box__item  ">
+                    <h3 class="product-box__title">Awesome family Apartment</h3>    
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-1.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$800</p>
+                        <button class="product-box__btn">Buy</button>
+                    </div>
+                   
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">Gorgeous Apartment bay view</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-2.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$5000</p>
+                        <button class="product-box__btn">Buy</button>
+                        </div>
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">Contemporary apartment </h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-3.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                      
+                        <div class="price-title">Price:</div>
+                        <p>$450</p>
+                        <button class="product-box__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">Modern apartment on the bay
+                    </h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-4.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$4500</p>
+                        <button class="product-box__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="product-box__item">
+                    <h3 class="product-box__title">ЖК LIKOGRAD 
+                      Perfect Town</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-5.jpg">
+                    </div>
+                    <div class="product-box__meta"></div>
+                        <div class="price-title">Price:</div>
+                        <p>$700</p>
+                        <button class="product-box__btn">Buy</button>
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">17, ParkLand apartment</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-6.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$500</p>
+                       <button class="product-box__btn">Buy</button>
+                    </div>
+                </div>
+
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">Specific penthouse</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-7.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$8000</p>
+                      <button class="product-box__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">For sale 2-room view apartment</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-8.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$6500</p>
+                        <button class="product-box__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">New, designer apartment</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-9.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$5000</p>
+                        <button class="product-box__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="product-box__item">
+                    <h3 class="product-box__title">Smart house</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-10.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$300</p>
+                      <button class="product-box__btn">Buy</button>
+                    </div>
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">Long-term apartment rental</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-11.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$450</p>
+                       <button class="product-box__btn">Buy</button>
+
+                    </div>
+                </div>
+                <div class="product-box__item ">
+                    <h3 class="product-box__title">"Venice" First time for rent!</h3>
+                    <div class="product-box__img">
+                        <img class="img-fluid" src="/image/flats/apartament-12.jpg">
+                    </div>
+                    <div class="product-box__meta">
+                        <div class="price-title">Price:</div>
+                        <p>$600</p>
+                        <button class="product-box__btn">Buy</button>
+                    </div>
+                  </div>
+                      <div class="product-box__item ">
+                        <h3 class="product-box__title">"High-end designer renovation</h3>
+                        <div class="product-box__img">
+                            <img class="img-fluid" src="/image/flats/apartament-13.jpg">
+                        </div>
+                        <div class="product-box__meta">
+                            <div class="price-title">Price:</div>
+                            <p>$300</p>
+                           <button class="product-box__btn">Buy</button>
+                        </div>
+                </div>
+                <div class="product-box__item ">
+                  <h3 class="product-box__title">Bright warm apartment.</h3>
+                  <div class="product-box__img">
+                      <img class="img-fluid" src="/image/flats/apartament-14.jpg">
+                  </div>
+                  <div class="product-box__meta">
+                    <div class="price-title">Price:</div>
+                      <p>$500</p>
+                      <button class="product-box__btn">Buy</button>
+                  </div>
+                </div>
+
+                <div class="product-box__item ">
+                  <h3 class="product-box__title">WITHOUT COMMISSION! Three-room apartment for sale</h3>
+                  <div class="product-box__img">
+                      <img class="img-fluid" src="/image/flats/apartament-14.jpg">
+                  </div>
+                  <div class="product-box__meta">
+                    <div class="price-title">Price:</div>
+                      <p>$120,000</p>
+                      <button class="product-box__btn">Buy</button>
+                  </div>
+                </div>
+
+                <div class="product-box__item">
+                  <h3 class="product-box__title">Sale of an apartment in a new house.</h3>
+                  <div class="product-box__img">
+                      <img class="img-fluid" src="/image/flats/apartament-15.jpg">
+                  </div>
+                  <div class="product-box__meta">
+                    <div class="price-title">Price:</div>
+                      <p>$80,000</p>
+                      <button class="product-box__btn">Buy</button>
+                  </div>
+                </div>
+                <div id="slider-nav">
+                    <a href="#" data-slide="0">1</a>
+                    <a href="#" data-slide="1">2</a>
+                    <a href="#" data-slide="2">3</a>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+</div>
+<div id="footer"></div>
+
+
+</body>
+</html>

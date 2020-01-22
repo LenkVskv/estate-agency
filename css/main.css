@@ -1,0 +1,84 @@
+html {
+	overflow-y: scroll; 
+}
+section{
+	display: block;
+}
+.main{
+
+background-color:#404943;
+background-image: url(/image/background.png);
+background-position: top left;
+background-repeat: no-repeat;
+color: white;
+}
+.heading{
+	font-size: 100%;
+	vertical-align: baseline;
+	font-size: 34px;
+	font-weight: 600;
+	letter-spacing: -.25px;
+	padding: 36px 20px 36px 20px;
+		
+}
+.info-content{
+	text-align: center;
+	border-style: solid;
+	border-width: 3px 0 0 0;
+	border-color: #43c370;
+	padding: 36px 32px 54px 16px;
+}
+.info-h3{
+	line-height: 24px;
+	padding-bottom: 15px;
+	font-size: 19px;
+	font-weight: 500;
+}
+.icons{
+	position: relative;
+	height: 1em;
+	font-style: normal;
+  font-variant: normal;
+	text-rendering: auto;
+	margin: 40px;
+}
+.icon-agents::before{
+	background-image: url(/image/point.gif);
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	display: inline-block;
+	width: 60px; 
+	height: 60px;
+	content:"";
+	
+
+}
+.icon-home::before{
+	background-image: url(/image/home.gif);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	margin: -35px;
+	display: inline-block;
+	width: 100px; 
+	height: 100px;
+	content:"";
+	
+
+}
+.icon-finance::before{
+	background-image: url(/image/finance.gif);
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	display: inline-block;
+	width: 60px; 
+	height: 60px;
+	content:"";
+
+	
+}
+.description{
+	font-size: 16px;	
+}
+.info-hover :hover{
+	background: #43c370;;
+}

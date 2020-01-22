@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="/css/contact.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="/js/main.js"></script>
+	<title>Our Office Location</title>
+	
+</head>
+<script>
+		var map;
+		let coordinates = {lat: 50.444177, lng: 30.533546}
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: coordinates,
+          zoom: 14
+		  });
+		  var marker = new google.maps.Marker({
+			position: coordinates,
+			title:"Homepress Office"
+		});
+		marker.setMap(map);
+
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQAbJDwU2Wm7zcst6tJ4RyqTPsXgQ4i-c&callback=initMap"
+    async defer></script>
+<body>
+	<div id="header"></div>
+	  <div id="map"></div>
+	  <div id="footer"></div>
+</body>
+
+</html>
