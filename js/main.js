@@ -32,3 +32,5 @@ $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
 
 
 }); 
+
+
