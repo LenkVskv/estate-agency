@@ -2,7 +2,7 @@
 #slider{
   display: none;
 }
-#stm-listing-register {
+ #stm-listing-register {
   max-width: 720px;
   position: relative;
   overflow: hidden;
@@ -34,8 +34,9 @@ h5 {
   margin-bottom: 8px;
   padding: 6px;
 }
-#reg-password{
+#password{
   background: white;
+  border:none;
 }
 .stm-form-control{
   background-color: #fff;

@@ -1,3 +1,4 @@
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="/js/header.js"></script>
 <header class="main-header">
 <div class="header-container">
@@ -21,11 +22,15 @@
   </ul>
  </div>
 </section>
+<div id="user_name"></div>
 <section class="user-section">
+  
   <input class="myButton" type="button">
+  <form>
   <div class="user">
+ 
     <div class="sign">
-      <div id="stm-listing-login">
+      <div id="signIn" class="stm-listing-login">
         <div class="form-field"><label for="log-login" class="field-title">Login</label> 
         <input id="log-login" type="text" autocomplete="off" placeholder="Enter login" class="stm-form-control">
   </div>
@@ -47,42 +52,51 @@
         </div>
       </div>
          <div class="form-field-white">
-           <button type="button" class="homepress-button">Sign In</button> 
+           <button type="button" id="login-button" class="homepress-button">Log In</button> 
            <div class="user-registration-link"><a href="/html/sign.html">Registration</a>
           </div>
         </div>
       </div>
+      <div id="signOut" class="stm-listing-login">
+      </div>
+         <div class="form-field-white">
+           <button type="button" id="logout-button" class="homepress-button">Log Out</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </form>
+  <div class="menu-btn">
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+  </div>
+  <ul class="menu-nav">
+     <li class="nav-item">
+        <a href="/html/main.html" class="nav-link">
+           Home
+        </a>
+        </li>
+        <li class="nav-item">
+           <a href="/html/property.html" class="nav-link">
+            Property
+           </a>
+        </li>
+           <li class="nav-item">
+          <a href="/html/reviews.html" class="nav-link">
+              Rewievs
+            </a>
+           </li>
+              <li class="nav-item">
+                 <a href="/html/contact.html" class="nav-link">
+                    Contact us
+                 </a>
+              </li>
+  </ul>
   </div>
 </section>
-<div class="menu-btn">
-  <div class="btn-line"></div>
-  <div class="btn-line"></div>
-  <div class="btn-line"></div>
-</div>
-<ul class="menu-nav">
-   <li class="nav-item">
-      <a href="/html/main.html" class="nav-link">
-         Home
-      </a>
-      </li>
-      <li class="nav-item">
-         <a href="/html/property.html" class="nav-link">
-          Property
-         </a>
-      </li>
-         <li class="nav-item">
-        <a href="/html/reviews.html" class="nav-link">
-            Rewievs
-          </a>
-         </li>
-            <li class="nav-item">
-               <a href="/html/contact.html" class="nav-link">
-                  Contact us
-               </a>
-            </li>
-</ul>
-</nav>
-</div>
+
 
 <div id="slider">
     <ul>

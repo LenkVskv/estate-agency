@@ -10,44 +10,41 @@
     <link rel="stylesheet" href="/css/sign.css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="/js/main.js"></script>
-    <script src="/js/reviews.js"></script>
+    <script src="/js/sign.js"></script>
   
    
   
 </head>
 <body>
   <div id="header"></div>
-    <div id="stm-listing-register">
-      <h5>Registration</h5> 
+  <div id="stm-listing-register">
+    <h5>Registration</h5> 
+<div class="form-field-white">
+  <label for="first-name" class="field-title">First name</label> 
+  <input id="first-name" type="text" placeholder="Enter first name" class="stm-form-control">
+</div> 
   <div class="form-field-white">
-    <label for="reg-login" class="field-title">Login</label>
-    <input id="reg-login" type="text" placeholder="Enter login" class="stm-form-control"> 
+    <label for="last-name" class="field-title">Last name</label> 
+    <input id="last-name" type="text" placeholder="Enter last name" class="stm-form-control"> 
   </div> 
   <div class="form-field-white">
-    <label for="reg-first-name" class="field-title">First name</label> 
-    <input id="reg-first-name" type="text" placeholder="Enter first name" class="stm-form-control">
+    <label for="email" class="field-title">Email</label>
+    <input id="email" type="email" placeholder="Enter email" class="stm-form-control"> 
   </div> 
     <div class="form-field-white">
-      <label for="reg-last-name" class="field-title">Last name</label> 
-      <input id="reg-last-name" type="text" placeholder="Enter last name" class="stm-form-control"> 
-    </div> 
-    <div class="form-field-white">
-      <label for="reg-email" class="field-title">Email</label>
-      <input id="reg-email" type="email" placeholder="Enter email" class="stm-form-control"> 
-    </div> 
-      <div class="form-field-white">
-        <label for="reg-role" class="fld-title">User role</label>
-        <select data-select2-id="1" tabindex="-1" class="select2-hidden-accessible ulisting-select2" aria-hidden="true"><option value="user" data-select2-id="3">User</option>
-          <option value="user" data-select2-id="3">Owner</option>
-        </select>
-    </div>
-    <div class="form-field-white">
-      <label for="reg-password" class="field-title">Password</label>
-       <input id="reg-password" type="password" placeholder="Enter password" class="stm-form-control">
-    </div> 
-          <div class="form-field-white account-button-right-position">
-            <button type="button" class="homepress-button">Register</button>
-          </div> 
+      <label for="role" class="fld-title">User role</label>
+      <select data-select2-id="1" id="role" tabindex="-1" class="select2-hidden-accessible ulisting-select2" aria-hidden="true">
+        <option value="user" data-select2-id="3">User</option>
+        <option value="user" data-select2-id="3">Owner</option>
+      </select>
+  </div>
+  <div class="form-field-white">
+    <label for="password" class="field-title">Password</label>
+     <input id="password" type="password" placeholder="Enter password" class="stm-form-control">
+  </div> 
+        <div class="form-field-white account-button-right-position">
+          <button type="button" class="reg-button">Register</button>
+        </div> 
 </div>
   
 	  <div id="footer"></div>

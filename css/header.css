@@ -92,17 +92,20 @@ form{
 }
 .user-section{
   display: block;
+  width: 10%;
 }
 
 #slider {
-padding-top: 60px;
+padding-top: 28px;
 position: relative;
 overflow: hidden;
 height: 390px;
 width: 100%;
 margin: auto;
 }
-
+span{
+  padding-top: 40px;
+}
 #slider ul {
 position: relative;
 margin: 0;
@@ -155,7 +158,7 @@ padding-top: 11px;
 }
 
 .user{
-  display: flex;
+  display: none;
   padding: 10px;
   box-sizing: border-box;
   background-color: rgba(48,52,65,1);
@@ -335,7 +338,7 @@ input[type="password"]{
   width: 100%;
  
 }
-#stm-listing-login, .login-page-box {
+.stm-listing-login, .login-page-box {
   position: relative; 
    overflow: hidden; 
   margin-top: 40px;
@@ -371,4 +374,9 @@ input[type="password"]{
 }
 .forgot-password-in-form {
   text-align: right;
+}
+#user_name{
+  color: white;
+  padding: 12px;
+  font-size: 18px;
 }
