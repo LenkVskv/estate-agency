@@ -1,17 +1,20 @@
 {
   "name": "estate-agency",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estate-agency",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LenkVskv/estate-agency.git"
   },
-  "author": "",
+  "author": "Vaskiv Olena",
   "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2 "
+  },
   "bugs": {
     "url": "https://github.com/LenkVskv/estate-agency/issues"
   },

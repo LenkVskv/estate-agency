@@ -1,0 +1,49 @@
+
+#slider{
+  display: none;
+}
+#stm-listing-register {
+  max-width: 720px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 30px 40px;
+  margin: 40px auto 0;
+  background-color: rgba(191,191,191,.2);
+  font-family: sans-serif;
+  border: none;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -.1px;
+  margin-bottom: 20px;
+}
+#stm-listing-register label{
+  display: flex;
+  justify-content: flex-start;
+}
+#stm-listing-register .field-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.fld-title{
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding: 6px;
+}
+#reg-password{
+  background: white;
+}
+.stm-form-control{
+  background-color: #fff;
+}
+.form-field-white {
+  padding: 10px 0; 
+}
+#stm-listing-register input{
+  border: none;
+  height: 30px;
+}

@@ -4,7 +4,7 @@ var button = document.querySelector(".myButton");
 });
 function onResize(){
    var button = document.querySelector(".menu-btn");
-   button.style.display = window.innerWidth <= 750 ? 'inline-block' : 'none';
+   button.style.display = window.innerWidth <= 750 ? 'block' : 'none';
 }
 window.addEventListener('resize', onResize);
 onResize()
