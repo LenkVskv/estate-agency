@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/LenkVskv/estate-agency/issues"
   },
-  "homepage": "https://github.com/LenkVskv/estate-agency#readme"
+  "homepage": "https://github.com/LenkVskv/estate-agency#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
 }
